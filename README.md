@@ -23,9 +23,9 @@ Passionné par la conception d'applications robustes et la modélisation de base
 
 ### 📫 Comment me contacter
 
-- 💼 **LinkedIn:** [Ajoute ton lien LinkedIn ici](https://linkedin.com/in/ton-profil)
-- 🌐 **Portfolio / Flux RSS de veille :** [Ajoute le lien vers ton portfolio ici](https://github.com/Sartome/Portfolio)
-- ✉️ **Email:** [Ton adresse email pro](elarrassmarwane@gmail.com)
+- 💼 **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/marwane-el-arrass/)
+- 🌐 **Portfolio / Flux RSS de veille :** [Portfolio](https://github.com/Sartome/Portfolio)
+- ✉️ **Email:** [email pro](elarrassmarwane@gmail.com)
 
 ---
 ⭐️ *Merci de visiter mon profil ! N'hésitez pas à jeter un œil à mes repositories ci-dessous.*
