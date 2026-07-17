@@ -1,0 +1,19 @@
+<svg width="850" height="40" viewBox="0 0 850 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="tg">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="ul" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#36BCF5" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#36BCF5" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <text x="8" y="26" fill="#36BCF5" font-family="'Courier New', monospace" font-size="22" opacity="0.7" filter="url(#tg)">&#x276E;</text>
+  <text x="28" y="26" fill="#e2e8f0" font-family="'Courier New', monospace" font-size="18" font-weight="bold" letter-spacing="3">À PROPOS</text>
+  <text x="165" y="26" fill="#36BCF5" font-family="'Courier New', monospace" font-size="22" opacity="0.7" filter="url(#tg)">&#x276F;</text>
+  <line x1="28" y1="34" x2="165" y2="34" stroke="url(#ul)" stroke-width="1.5"/>
+  <circle cx="180" cy="20" r="3" fill="#36BCF5" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

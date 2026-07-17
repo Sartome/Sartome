@@ -1,0 +1,39 @@
+<svg width="850" height="100" viewBox="0 0 850 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="100%" stop-color="#0d1525"/>
+    </linearGradient>
+    <linearGradient id="footLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#36BCF5" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#36BCF5" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#36BCF5" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="fgl">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="850" height="100" fill="url(#footBg)" rx="0"/>
+
+  <!-- Top line -->
+  <rect x="50" y="15" width="750" height="1" fill="url(#footLine)"/>
+
+  <!-- Thank you text -->
+  <text x="425" y="50" text-anchor="middle" fill="#8892a4" font-family="'Courier New', monospace" font-size="12" letter-spacing="2" opacity="0.6">MERCI DE VOTRE VISITE</text>
+
+  <!-- Subtitle -->
+  <text x="425" y="72" text-anchor="middle" fill="#36BCF5" font-family="'Courier New', monospace" font-size="9" letter-spacing="1" opacity="0.4">SARTOME_AGENT v2.0 • CRAFTED WITH CARE</text>
+
+  <!-- Animated dots -->
+  <circle cx="375" cy="85" r="1.5" fill="#36BCF5" opacity="0.3" filter="url(#fgl)">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="425" cy="85" r="1.5" fill="#36BCF5" opacity="0.3" filter="url(#fgl)">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2s" begin="0.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="475" cy="85" r="1.5" fill="#36BCF5" opacity="0.3" filter="url(#fgl)">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>

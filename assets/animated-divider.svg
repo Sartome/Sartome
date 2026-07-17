@@ -1,0 +1,30 @@
+<svg width="850" height="30" viewBox="0 0 850 30" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#36BCF5" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#36BCF5" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#36BCF5" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#36BCF5" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#36BCF5" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="g">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Main line -->
+  <line x1="100" y1="15" x2="750" y2="15" stroke="url(#lineGrad)" stroke-width="0.5" opacity="0.6"/>
+  <!-- Center diamond -->
+  <g transform="translate(425,15)" filter="url(#g)">
+    <polygon points="0,-4 4,0 0,4 -4,0" fill="#36BCF5" opacity="0.8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+  <!-- Side dots -->
+  <circle cx="200" cy="15" r="1.5" fill="#36BCF5" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="650" cy="15" r="1.5" fill="#36BCF5" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+</svg>
