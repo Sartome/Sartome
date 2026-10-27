@@ -85,7 +85,7 @@
   </rect>
 
   <!-- Main title -->
-  <text x="425" y="105" text-anchor="middle" fill="#FFFFFF" font-family="'Courier New', monospace" font-size="42" font-weight="bold" letter-spacing="6" filter="url(#glow)">SARTOME</text>
+  <text x="425" y="105" text-anchor="middle" fill="#FFFFFF" font-family="'Courier New', monospace" font-size="42" font-weight="bold" letter-spacing="6" filter="url(#glow)">MARWANE</text>
 
   <!-- Subtitle line -->
   <line x1="280" y1="120" x2="570" y2="120" stroke="url(#accentGrad)" stroke-width="1"/>
